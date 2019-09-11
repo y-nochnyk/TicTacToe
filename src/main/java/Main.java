@@ -1,3 +1,8 @@
+/** This is the project of a simple game Tic-Tac-Toe.
+ *  Created using Java SE, designed by SOLID principles.
+ *  Made by Yaroslav Nochnyk.
+ *  https://github.com/y-nochnyk
+ */
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -8,6 +13,8 @@ public class Main {
         game.intro();
         game.selectGameType();
         game.initGameField();
+
+        // The game cycle if it's 'Human-Computer' game type
         if (game.getGameType() == 1)
             while (true){
                 human1.move(game);
@@ -29,6 +36,8 @@ public class Main {
                     return;
                 }
             }
+
+        // The game cycle if it's 'Human-Human' game type
         if (game.getGameType() == 2)
             while (true){
                 human1.move(game);
@@ -50,7 +59,5 @@ public class Main {
                     return;
                 }
             }
-
-
     }
 }

@@ -1,6 +1,9 @@
 import java.util.Random;
 
 public class Computer extends Player {
+
+    // Implementation of the Player class method 'move()' for its instance Computer
+    // The method puts 2 random coordinates in range of 1-3 into the game field
     @Override
     void move(Game game) throws InterruptedException, TicTacToeException {
         Random random = new Random();
