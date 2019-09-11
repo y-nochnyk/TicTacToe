@@ -1,4 +1,4 @@
-/** This is the project of a simple game Rock-Scissors-Paper.
+/** This is the project of a simple game Tic-Tac-Toe.
  *  Created using Java SE, designed by SOLID principles.
  *  Made by Yaroslav Nochnyk.
  *  https://github.com/y-nochnyk
