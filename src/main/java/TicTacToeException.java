@@ -1,5 +1,6 @@
 import java.io.IOException;
 
+// Exception created especially for this app. It's being thrown if there's wrong input data typed by player
 public class TicTacToeException extends IOException {
     public TicTacToeException(String message){
         super(message);

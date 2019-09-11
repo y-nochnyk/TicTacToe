@@ -1,3 +1,8 @@
+/** This is the project of a simple game Rock-Scissors-Paper.
+ *  Created using Java SE, designed by SOLID principles.
+ *  Made by Yaroslav Nochnyk.
+ *  https://github.com/y-nochnyk
+ */
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -50,7 +55,5 @@ public class Main {
                     return;
                 }
             }
-
-
     }
 }
